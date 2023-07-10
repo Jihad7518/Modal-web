@@ -52,3 +52,27 @@
       right: 31%;
     }
   }
+
+.card-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    height: 450px;
+    border: 2px solid #ffffff30;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #ffffff1a;
+    backdrop-filter: blur(15px);
+    border-radius: 15px;
+    color: #ffffff;
+    padding: 20px 50px;
+  }
+  .card-wrapper div img {
+    border: 2px solid #ffffff30;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }

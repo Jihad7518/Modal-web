@@ -76,3 +76,30 @@
     height: 150px;
     border-radius: 50%;
   }
+
+.designation h3 {
+    text-align: center;
+    color: #ffffff85;
+  }
+  .user-name h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .bottom-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .btn-share {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    padding: 9px 12px;
+    background: #ffffff00;
+    border: 2px solid #ffffffb9;
+    text-transform: capitalize;
+    border-radius: 4px;
+    color: #ffffffb9;
+    cursor: pointer;
+  }

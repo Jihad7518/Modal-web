@@ -180,3 +180,21 @@
     background-color: #1c99e6;
     color: #fff;
   }
+
+ #instagram {
+    color: #cb2770;
+    border: 1px solid #cb2770;
+  }
+  #instagram:hover {
+    background-color: #cb2770;
+    color: #fff;
+  }
+  
+  #whatsapp {
+    color: #2fe664;
+    border: 1px solid #2fe664;
+  }
+  #whatsapp:hover {
+    background-color: #2fe664;
+    color: #fff;
+  }

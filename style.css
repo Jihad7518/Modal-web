@@ -222,3 +222,20 @@
     pointer-events: none;
     transition: 0.5s ease-in-out;
   }
+
+ .overlayactive {
+    opacity: 1;
+    pointer-events: initial;
+  }
+  @media (max-width: 850px) {
+    .card-wrapper {
+      max-width: 250px;
+      width: 300px;
+    }
+    .bottom-group {
+      flex-direction: column;
+    }
+    .modal {
+      width: 70vw;
+    }
+  }

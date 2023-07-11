@@ -1,5 +1,4 @@
 
-
 * {
     margin: 0;
     padding: 0;
@@ -14,8 +13,8 @@
     width: 100vw;
     height: 100vh;
   }
-
-.circle1 {
+  
+  .circle1 {
     position: fixed;
     top: 5%;
     left: 30%;
@@ -34,8 +33,8 @@
       scale: 1.11;
     }
   }
-
-.circle2 {
+  
+  .circle2 {
     position: absolute;
     bottom: 5%;
     right: 30%;
@@ -52,8 +51,7 @@
       right: 31%;
     }
   }
-
-.card-wrapper {
+  .card-wrapper {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -76,8 +74,7 @@
     height: 150px;
     border-radius: 50%;
   }
-
-.designation h3 {
+  .designation h3 {
     text-align: center;
     color: #ffffff85;
   }
@@ -103,8 +100,34 @@
     color: #ffffffb9;
     cursor: pointer;
   }
-
- .modal {
+ .designation h3 {
+    text-align: center;
+    color: #ffffff85;
+  }
+  .user-name h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .bottom-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .btn-share {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    padding: 9px 12px;
+    background: #ffffff00;
+    border: 2px solid #ffffffb9;
+    text-transform: capitalize;
+    border-radius: 4px;
+    color: #ffffffb9;
+    cursor: pointer;
+  }
+  
+  .modal {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -129,8 +152,7 @@
     padding-bottom: 12px;
     border-bottom: 1px solid #ffffff88;
   }
-
- .modal-header div i {
+  .modal-header div i {
     font-size: 30px;
   }
   .close {
@@ -143,8 +165,7 @@
     align-items: center;
     flex-wrap: wrap;
   }
-
- .icon {
+  .icon {
     border: 1px solid #ffffff88;
     padding: 17px;
     border-radius: 50%;
@@ -162,8 +183,8 @@
   .icon i {
     font-size: 27px;
   }
-
- #facebook {
+  
+  #facebook {
     color: #1771e6;
     border: 1px solid #1771e6;
   }
@@ -180,8 +201,8 @@
     background-color: #1c99e6;
     color: #fff;
   }
-
- #instagram {
+  
+  #instagram {
     color: #cb2770;
     border: 1px solid #cb2770;
   }
@@ -198,8 +219,8 @@
     background-color: #2fe664;
     color: #fff;
   }
-
- #telegram {
+  
+  #telegram {
     color: #0081c2;
     border: 1px solid #0081c2;
   }
@@ -222,8 +243,7 @@
     pointer-events: none;
     transition: 0.5s ease-in-out;
   }
-
- .overlayactive {
+  .overlayactive {
     opacity: 1;
     pointer-events: initial;
   }
@@ -239,8 +259,7 @@
       width: 70vw;
     }
   }
-
- 
+  
   @media (max-width: 400px) {
     .wrapper {
       display: flex;
